@@ -4,26 +4,39 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Turkish Delight inspired color palette
+        // New sophisticated lokum-inspired palette
         'lokum': {
-          pink: '#FFB6C1',      // Light pink like rose lokum
-          rose: '#FF69B4',      // Vibrant rose
-          pistachio: '#93C5A5', // Pistachio green
-          sugar: '#FFFEF7',     // Sugar white
-          caramel: '#DEB887',   // Caramel brown
-          lavender: '#E6E6FA',  // Lavender purple
+          // Primary background
+          cream: '#FDF8F0',      // Creamy off-white from logo background
+          
+          // Accent colors from the lokum cubes
+          coral: '#E68A7F',      // Muted terracotta from red cube
+          sage: '#A0B38B',       // Earthy sage green from green cube  
+          apricot: '#F5B972',    // Warm apricot from orange cube
+          
+          // Text colors
+          charcoal: '#2C2C2C',   // Deep charcoal for primary text
+          gray: '#777777',       // Medium gray for secondary text
+          
+          // Legacy colors (keeping for backward compatibility)
+          sugar: '#FDF8F0',      // Same as cream
+          pink: '#E68A7F',       // Same as coral
+          rose: '#E68A7F',       // Same as coral
+          pistachio: '#A0B38B',  // Same as sage
+          caramel: '#F5B972',    // Same as apricot
+          lavender: '#E68A7F',   // Updated to coral
         },
         'delight': {
-          50: '#fff0f3',
-          100: '#ffe1e7',
-          200: '#ffc8d4',
-          300: '#ff9fb0',
-          400: '#ff6b8a',
-          500: '#ff3864',
-          600: '#ed1450',
-          700: '#c80843',
-          800: '#a70940',
-          900: '#8f0a3c',
+          50: '#fdf9f4',
+          100: '#fbf0e6',
+          200: '#f7dcc7',
+          300: '#f0c09e',
+          400: '#e89d73',
+          500: '#E68A7F',
+          600: '#d4705a',
+          700: '#b85a42',
+          800: '#964a38',
+          900: '#7a3e32',
         }
       },
       fontFamily: {
@@ -42,8 +55,8 @@ export default {
         }
       },
       boxShadow: {
-        'lokum': '0 4px 14px 0 rgba(255, 182, 193, 0.39)',
-        'lokum-lg': '0 10px 25px 0 rgba(255, 182, 193, 0.5)',
+        'lokum': '0 4px 14px 0 rgba(230, 138, 127, 0.25)',
+        'lokum-lg': '0 10px 25px 0 rgba(230, 138, 127, 0.35)',
       }
     },
   },
