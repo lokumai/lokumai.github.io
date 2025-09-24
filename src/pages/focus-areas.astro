@@ -1,0 +1,298 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout title="Focus Areas - LokumAI Technologies" description="Explore LokumAI's focus areas: Intelligent Chatbots, Large Language Models, AI Agents, RAG, Vector Databases, and more cutting-edge AI technologies.">
+  <Header />
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="relative py-20 bg-gradient-to-br from-lokum-sugar via-white to-lokum-pistachio/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl font-bold font-display text-gray-800 mb-6">Our Focus Areas</h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          At LokumAI, we aim to make modern AI solutions accessible to everyone. 
+          Discover the technologies and methodologies that power our artificial delight.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Technologies Grid -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Primary Focus Areas -->
+        <div class="mb-16">
+          <h2 class="text-3xl font-bold font-display text-gray-800 text-center mb-12">Core Technologies</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Intelligent Chatbots -->
+            <div class="group bg-white rounded-xl p-8 border border-lokum-pink/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2">
+              <div class="text-5xl mb-6 group-hover:animate-bounce-slow">🤖</div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Intelligent Chatbot Infrastructure</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Building robust, flexible, and <strong>OpenAI-compatible</strong> backend APIs and user interfaces 
+                for sophisticated conversational AI systems.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-pink/20 text-lokum-rose rounded-full">OpenAI Compatible</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-pink/20 text-lokum-rose rounded-full">FastAPI</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-pink/20 text-lokum-rose rounded-full">React</span>
+              </div>
+            </div>
+
+            <!-- Large Language Models -->
+            <div class="group bg-white rounded-xl p-8 border border-lokum-pistachio/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2">
+              <div class="text-5xl mb-6 group-hover:animate-bounce-slow">🧠</div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Large Language Models (LLMs)</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Harnessing the power of LLMs for various applications, from conversational AI to complex reasoning 
+                and natural language understanding.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-pistachio/20 text-green-700 rounded-full">GPT Models</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-pistachio/20 text-green-700 rounded-full">Hugging Face</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-pistachio/20 text-green-700 rounded-full">Fine-tuning</span>
+              </div>
+            </div>
+
+            <!-- AI Agents -->
+            <div class="group bg-white rounded-xl p-8 border border-lokum-lavender/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2">
+              <div class="text-5xl mb-6 group-hover:animate-bounce-slow">🛠️</div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">AI Agents & Agentic AI</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Developing systems where AI agents can autonomously perform tasks, make decisions, 
+                and interact with external tools and services.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-lavender/30 text-purple-700 rounded-full">LangChain</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-lavender/30 text-purple-700 rounded-full">LangGraph</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-lavender/30 text-purple-700 rounded-full">Tool Calling</span>
+              </div>
+            </div>
+
+            <!-- Model Context Protocol -->
+            <div class="group bg-white rounded-xl p-8 border border-lokum-caramel/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2">
+              <div class="text-5xl mb-6 group-hover:animate-bounce-slow">🔄</div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Model Context Protocol (MCP)</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Standardizing context and data flow between AI models with MCP, and building adapters 
+                for seamless integration across different AI systems.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-caramel/20 text-yellow-800 rounded-full">MCP Protocol</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-caramel/20 text-yellow-800 rounded-full">Adapters</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-caramel/20 text-yellow-800 rounded-full">Integration</span>
+              </div>
+            </div>
+
+            <!-- RAG Systems -->
+            <div class="group bg-white rounded-xl p-8 border border-lokum-rose/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2">
+              <div class="text-5xl mb-6 group-hover:animate-bounce-slow">🔍</div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Retrieval Augmented Generation (RAG)</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Enhancing LLM responses by dynamically retrieving and incorporating information 
+                from external knowledge bases and documents.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-rose/20 text-pink-700 rounded-full">Vector Search</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-rose/20 text-pink-700 rounded-full">Knowledge Base</span>
+                <span class="px-3 py-1 text-xs font-medium bg-lokum-rose/20 text-pink-700 rounded-full">Context Injection</span>
+              </div>
+            </div>
+
+            <!-- Vector Databases -->
+            <div class="group bg-white rounded-xl p-8 border border-blue-200 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2">
+              <div class="text-5xl mb-6 group-hover:animate-bounce-slow">🔗</div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Embeddings & Vector Databases</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Utilizing embeddings for semantic search and similarity matching, powered by efficient 
+                vector databases for high-performance AI applications.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded-full">Embeddings</span>
+                <span class="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded-full">Vector DB</span>
+                <span class="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded-full">Similarity Search</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="mb-16">
+          <h2 class="text-3xl font-bold font-display text-gray-800 text-center mb-12">Technology Stack</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Backend Technologies -->
+            <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-8 border border-gray-200">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                <span class="text-3xl mr-3">🐍</span>
+                Backend & APIs
+              </h3>
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">Python & FastAPI</span>
+                  <span class="text-sm text-gray-500">Primary backend framework</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">OpenAPI Standards</span>
+                  <span class="text-sm text-gray-500">API documentation & compatibility</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">PostgreSQL</span>
+                  <span class="text-sm text-gray-500">Robust data persistence</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">MongoDB</span>
+                  <span class="text-sm text-gray-500">Document storage</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frontend Technologies -->
+            <div class="bg-gradient-to-br from-lokum-sugar to-white rounded-xl p-8 border border-lokum-pink/20">
+              <h3 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                <span class="text-3xl mr-3">✨</span>
+                Frontend & UI
+              </h3>
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">React & Next.js</span>
+                  <span class="text-sm text-gray-500">Modern frontend framework</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">TypeScript</span>
+                  <span class="text-sm text-gray-500">Type-safe development</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">TailwindCSS</span>
+                  <span class="text-sm text-gray-500">Utility-first styling</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-700 font-medium">Responsive Design</span>
+                  <span class="text-sm text-gray-500">Mobile-first approach</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Principles -->
+        <div class="bg-gradient-to-r from-lokum-pink/10 via-lokum-pistachio/10 to-lokum-lavender/10 rounded-2xl p-12">
+          <h2 class="text-3xl font-bold font-display text-gray-800 text-center mb-8">Our Development Principles</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Open Source First -->
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-lokum-pistachio rounded-full flex items-center justify-center">
+                <span class="text-2xl">🌐</span>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">Open-Source First</h3>
+              <p class="text-gray-600 text-sm">
+                Committing to open-source principles to foster collaboration and innovation
+              </p>
+            </div>
+
+            <!-- API Standards -->
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-lokum-rose rounded-full flex items-center justify-center">
+                <span class="text-2xl">🔌</span>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">API Standards</h3>
+              <p class="text-gray-600 text-sm">
+                Following OpenAPI and industry standards for maximum compatibility
+              </p>
+            </div>
+
+            <!-- Performance -->
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-lokum-lavender rounded-full flex items-center justify-center">
+                <span class="text-2xl">⚡</span>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">High Performance</h3>
+              <p class="text-gray-600 text-sm">
+                Optimizing for speed and efficiency in all our AI solutions
+              </p>
+            </div>
+
+            <!-- Developer Experience -->
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-lokum-caramel rounded-full flex items-center justify-center">
+                <span class="text-2xl">👩‍💻</span>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-2">Developer Joy</h3>
+              <p class="text-gray-600 text-sm">
+                Creating tools that bring delight to the development experience
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ecosystem Integration -->
+        <div class="mt-16 text-center">
+          <h2 class="text-3xl font-bold font-display text-gray-800 mb-8">Ecosystem Integration</h2>
+          
+          <div class="bg-white rounded-xl p-8 border border-gray-200 max-w-4xl mx-auto">
+            <div class="flex flex-wrap justify-center items-center gap-6 text-gray-600">
+              <div class="flex items-center space-x-2">
+                <span class="text-2xl">🤗</span>
+                <span class="font-medium">Hugging Face Ecosystem</span>
+              </div>
+              <div class="w-1 h-6 bg-gray-300 hidden sm:block"></div>
+              <div class="flex items-center space-x-2">
+                <span class="text-2xl">🐙</span>
+                <span class="font-medium">GitHub Integration</span>
+              </div>
+              <div class="w-1 h-6 bg-gray-300 hidden sm:block"></div>
+              <div class="flex items-center space-x-2">
+                <span class="text-2xl">🐳</span>
+                <span class="font-medium">Docker Containers</span>
+              </div>
+              <div class="w-1 h-6 bg-gray-300 hidden sm:block"></div>
+              <div class="flex items-center space-x-2">
+                <span class="text-2xl">☁️</span>
+                <span class="font-medium">Cloud Native</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-lokum-rose to-delight-500">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold font-display text-white mb-6">
+          Ready to Build with Us?
+        </h2>
+        <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          Explore our projects and see these technologies in action. 
+          Join our community and help us push the boundaries of AI development.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href="/projects" 
+            class="inline-flex items-center px-8 py-4 text-lg font-semibold text-lokum-rose bg-white rounded-full hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
+          >
+            Explore Projects
+          </a>
+          <a 
+            href="https://github.com/lokumai" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white border-2 border-white rounded-full hover:bg-white hover:text-lokum-rose transition-all duration-200"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

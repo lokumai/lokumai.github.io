@@ -1,0 +1,39 @@
+{
+  "name": "lokumai-website",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "LokumAI Organization Website - Artificial Delight for AI",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/sitemap": "^3.1.0",
+    "astro": "^4.15.0",
+    "tailwindcss": "^3.4.0",
+    "@tailwindcss/typography": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "lokumai",
+    "artificial-intelligence",
+    "ai",
+    "chatbot",
+    "llm", 
+    "turkish-delight",
+    "open-source"
+  ],
+  "author": "LokumAI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokumai/lokumai.github.io.git"
+  },
+  "homepage": "https://lokumai.github.io"
+}

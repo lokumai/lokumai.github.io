@@ -1,0 +1,352 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout title="Join LokumAI Community - Contribute to AI Delight" description="Join the LokumAI community! Learn how to contribute to our open-source projects, report issues, submit PRs, and help make AI development delightful for everyone.">
+  <Header />
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="relative py-20 bg-gradient-to-br from-lokum-sugar via-white to-lokum-rose/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl font-bold font-display text-gray-800 mb-6">Join Our Community</h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
+          Be part of our mission to make AI as sweet and accessible as Turkish Delight. 
+          Whether you're a seasoned developer or just starting your AI journey, there's a place for you in our community.
+        </p>
+        
+        <!-- Community motto -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-lokum-rose/20 max-w-2xl mx-auto">
+          <h2 class="text-2xl font-semibold text-lokum-rose mb-2">🍬 "Buyurun, tadın!" 🍬</h2>
+          <p class="text-gray-600 italic">"Come, taste!" - Our invitation to explore and contribute</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Contribute -->
+    <section class="py-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold font-display text-gray-800 mb-4">How to Contribute</h2>
+          <p class="text-lg text-gray-600">Multiple ways to get involved and make a difference</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          
+          <!-- Star Repositories -->
+          <div class="group bg-white rounded-xl p-6 border border-lokum-pink/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2 text-center">
+            <div class="w-16 h-16 mx-auto mb-4 bg-lokum-pink rounded-full flex items-center justify-center group-hover:animate-pulse-slow">
+              <span class="text-2xl">⭐</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-800 mb-3">Star Our Repositories</h3>
+            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+              Show your support by starring our projects on GitHub. It helps us understand which projects resonate with the community.
+            </p>
+            <a 
+              href="https://github.com/orgs/lokumai/repositories" 
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center text-lokum-rose hover:text-lokum-rose/80 font-medium text-sm transition-colors"
+            >
+              View Repositories
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Report Issues -->
+          <div class="group bg-white rounded-xl p-6 border border-lokum-pistachio/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2 text-center">
+            <div class="w-16 h-16 mx-auto mb-4 bg-lokum-pistachio rounded-full flex items-center justify-center group-hover:animate-pulse-slow">
+              <span class="text-2xl">🐞</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-800 mb-3">Report Issues</h3>
+            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+              Found a bug or have a feature request? Open an issue on GitHub. Clear bug reports help us improve our projects.
+            </p>
+            <div class="text-sm text-gray-500">
+              Use GitHub Issues for:
+              <ul class="mt-2 text-xs space-y-1 text-left">
+                <li>• Bug reports</li>
+                <li>• Feature requests</li>
+                <li>• Documentation improvements</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Submit Pull Requests -->
+          <div class="group bg-white rounded-xl p-6 border border-lokum-lavender/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2 text-center">
+            <div class="w-16 h-16 mx-auto mb-4 bg-lokum-lavender rounded-full flex items-center justify-center group-hover:animate-pulse-slow">
+              <span class="text-2xl">🛠️</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-800 mb-3">Submit Pull Requests</h3>
+            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+              Ready to contribute code? Fork our repositories, make your improvements, and submit a pull request. Every contribution counts!
+            </p>
+            <div class="text-sm text-gray-500">
+              Contribution types:
+              <ul class="mt-2 text-xs space-y-1 text-left">
+                <li>• Bug fixes</li>
+                <li>• New features</li>
+                <li>• Documentation</li>
+                <li>• Tests & examples</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Join Discussions -->
+          <div class="group bg-white rounded-xl p-6 border border-lokum-caramel/20 hover:shadow-lokum-lg transition-all duration-300 hover:-translate-y-2 text-center">
+            <div class="w-16 h-16 mx-auto mb-4 bg-lokum-caramel rounded-full flex items-center justify-center group-hover:animate-pulse-slow">
+              <span class="text-2xl">🗣️</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-800 mb-3">Join Discussions</h3>
+            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+              Participate in GitHub Discussions, share ideas, ask questions, and help other community members.
+            </p>
+            <div class="text-sm text-gray-500">
+              Discussion topics:
+              <ul class="mt-2 text-xs space-y-1 text-left">
+                <li>• Project ideas</li>
+                <li>• Best practices</li>
+                <li>• Help & support</li>
+                <li>• Show & tell</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contribution Guidelines -->
+        <div class="bg-gradient-to-r from-lokum-sugar to-white rounded-2xl p-8 border border-lokum-pink/20 mb-16">
+          <h2 class="text-2xl font-bold font-display text-gray-800 mb-6 text-center">Contribution Guidelines</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Code Contributions -->
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">💻</span>
+                Code Contributions
+              </h3>
+              
+              <div class="space-y-3 text-gray-600">
+                <div class="flex items-start space-x-3">
+                  <span class="text-lokum-rose font-bold">1.</span>
+                  <div>
+                    <p class="font-medium">Fork & Clone</p>
+                    <p class="text-sm">Fork the repository and clone it to your local machine</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-3">
+                  <span class="text-lokum-rose font-bold">2.</span>
+                  <div>
+                    <p class="font-medium">Create a Branch</p>
+                    <p class="text-sm">Create a feature branch for your changes</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-3">
+                  <span class="text-lokum-rose font-bold">3.</span>
+                  <div>
+                    <p class="font-medium">Write & Test</p>
+                    <p class="text-sm">Write your code and ensure tests pass</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-3">
+                  <span class="text-lokum-rose font-bold">4.</span>
+                  <div>
+                    <p class="font-medium">Submit PR</p>
+                    <p class="text-sm">Submit a pull request with a clear description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Code Standards -->
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">📋</span>
+                Code Standards
+              </h3>
+              
+              <div class="space-y-3 text-gray-600">
+                <div class="flex items-start space-x-3">
+                  <span class="w-2 h-2 bg-lokum-rose rounded-full mt-2 flex-shrink-0"></span>
+                  <div>
+                    <p class="font-medium">Follow Python PEP 8</p>
+                    <p class="text-sm">Maintain consistent code style</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-3">
+                  <span class="w-2 h-2 bg-lokum-pistachio rounded-full mt-2 flex-shrink-0"></span>
+                  <div>
+                    <p class="font-medium">Write Clear Comments</p>
+                    <p class="text-sm">Document your code in English</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-3">
+                  <span class="w-2 h-2 bg-lokum-lavender rounded-full mt-2 flex-shrink-0"></span>
+                  <div>
+                    <p class="font-medium">Add Tests</p>
+                    <p class="text-sm">Include tests for new features</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-3">
+                  <span class="w-2 h-2 bg-lokum-caramel rounded-full mt-2 flex-shrink-0"></span>
+                  <div>
+                    <p class="font-medium">Update Documentation</p>
+                    <p class="text-sm">Keep README and docs current</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Values -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold font-display text-gray-800 mb-4">Our Community Values</h2>
+          <p class="text-lg text-gray-600">What makes our community special</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Inclusivity -->
+          <div class="text-center">
+            <div class="w-20 h-20 mx-auto mb-6 bg-lokum-pink rounded-full flex items-center justify-center">
+              <span class="text-3xl">🤗</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Inclusivity</h3>
+            <p class="text-gray-600 leading-relaxed">
+              We welcome developers from all backgrounds, skill levels, and experiences. 
+              Diversity makes our community stronger and our solutions better.
+            </p>
+          </div>
+
+          <!-- Learning -->
+          <div class="text-center">
+            <div class="w-20 h-20 mx-auto mb-6 bg-lokum-pistachio rounded-full flex items-center justify-center">
+              <span class="text-3xl">🎓</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Continuous Learning</h3>
+            <p class="text-gray-600 leading-relaxed">
+              We believe in learning together. Share knowledge, ask questions, and help others grow. 
+              Every interaction is an opportunity to learn something new.
+            </p>
+          </div>
+
+          <!-- Quality -->
+          <div class="text-center">
+            <div class="w-20 h-20 mx-auto mb-6 bg-lokum-lavender rounded-full flex items-center justify-center">
+              <span class="text-3xl">✨</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Quality & Delight</h3>
+            <p class="text-gray-600 leading-relaxed">
+              We strive for excellence in everything we do. Quality code, thoughtful design, 
+              and delightful user experiences are at the heart of our work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get Started -->
+    <section class="py-16">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-2xl p-12 border border-lokum-rose/20 shadow-lokum-lg text-center">
+          <h2 class="text-3xl font-bold font-display text-gray-800 mb-6">Ready to Get Started?</h2>
+          
+          <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Choose your preferred way to contribute and join thousands of developers making AI more delightful
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            
+            <!-- GitHub -->
+            <a 
+              href="https://github.com/lokumai" 
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center px-6 py-4 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+
+            <!-- Hugging Face -->
+            <a 
+              href="https://huggingface.co/lokumai" 
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center px-6 py-4 bg-gradient-to-r from-orange-400 to-orange-500 text-white rounded-lg hover:from-orange-500 hover:to-orange-600 transition-colors"
+            >
+              <span class="text-xl mr-2">🤗</span>
+              Hugging Face
+            </a>
+
+            <!-- LinkedIn -->
+            <a 
+              href="https://www.linkedin.com/company/lokumai" 
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="bg-gradient-to-r from-lokum-pink/10 to-lokum-pistachio/10 rounded-lg p-6">
+            <p class="text-gray-600 font-medium mb-2">
+              <span class="text-lokum-rose">💡 Pro Tip:</span> Start small! 
+            </p>
+            <p class="text-gray-600 text-sm">
+              Even fixing a typo in documentation or adding an example to our README makes a difference. 
+              Every contribution, no matter how small, is valuable to our community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section class="py-16 bg-gradient-to-r from-lokum-rose to-delight-500">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold font-display text-white mb-6">
+          Thank You to Our Contributors
+        </h2>
+        <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          Our community grows stronger with every contribution. Thank you to everyone who has starred our repos, 
+          submitted issues, created pull requests, and helped spread the word about LokumAI.
+        </p>
+        
+        <div class="flex justify-center items-center space-x-2 mb-8">
+          <span class="text-6xl">🍬</span>
+          <span class="text-white text-2xl font-semibold">Artificial Delight</span>
+          <span class="text-6xl">🧠</span>
+        </div>
+        
+        <p class="text-lg text-white/90 italic">
+          "Together, we're making AI as sweet and welcoming as Turkish hospitality"
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

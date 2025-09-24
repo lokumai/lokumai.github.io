@@ -1,0 +1,43 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pinkCube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1"/>
+      <stop offset="100%" style="stop-color:#FF69B4"/>
+    </linearGradient>
+    <linearGradient id="greenCube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#93C5A5"/>
+      <stop offset="100%" style="stop-color:#7BA05B"/>
+    </linearGradient>
+    <linearGradient id="purpleCube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6E6FA"/>
+      <stop offset="100%" style="stop-color:#D8BFD8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#FFFEF7" stroke="#FFB6C1" stroke-width="2"/>
+  
+  <!-- Bottom cube - pink -->
+  <rect x="20" y="55" width="25" height="25" rx="3" fill="url(#pinkCube)" stroke="#FF69B4" stroke-width="1"/>
+  <!-- Middle cube - green -->
+  <rect x="30" y="40" width="25" height="25" rx="3" fill="url(#greenCube)" stroke="#7BA05B" stroke-width="1"/>
+  <!-- Top cube - purple -->
+  <rect x="40" y="25" width="25" height="25" rx="3" fill="url(#purpleCube)" stroke="#D8BFD8" stroke-width="1"/>
+  
+  <!-- Sugar crystals -->
+  <circle cx="25" cy="60" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="35" cy="70" r="1" fill="white" opacity="0.7"/>
+  <circle cx="40" cy="65" r="1.2" fill="white" opacity="0.8"/>
+  
+  <circle cx="35" cy="45" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="50" cy="55" r="1" fill="white" opacity="0.7"/>
+  <circle cx="45" cy="50" r="1.2" fill="white" opacity="0.8"/>
+  
+  <circle cx="45" cy="30" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="60" cy="40" r="1" fill="white" opacity="0.7"/>
+  <circle cx="55" cy="35" r="1.2" fill="white" opacity="0.8"/>
+  
+  <!-- Sparkle effects -->
+  <path d="M70 45 L72 47 L70 49 L68 47 Z" fill="white" opacity="0.8"/>
+  <path d="M18 35 L20 37 L18 39 L16 37 Z" fill="white" opacity="0.8"/>
+</svg>
