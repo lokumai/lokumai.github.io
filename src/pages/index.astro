@@ -22,33 +22,56 @@ import Footer from '../components/Footer.astro';
       </div>
       
       <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <!-- Logo -->
+        <!-- Logo Video -->
         <div class="mb-8 flex justify-center">
-          <div class="w-32 h-32 mx-auto transform hover:scale-110 transition-transform duration-300">
-            <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-lg">
-              <!-- Three stacked lokum cubes -->
-              <rect x="15" y="55" width="30" height="30" rx="4" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1.5"/>
-              <rect x="25" y="35" width="30" height="30" rx="4" fill="#93C5A5" stroke="#7BA05B" stroke-width="1.5"/>
-              <rect x="35" y="15" width="30" height="30" rx="4" fill="#E6E6FA" stroke="#D8BFD8" stroke-width="1.5"/>
-              
-              <!-- Sugar crystals effect -->
-              <circle cx="20" cy="60" r="1.5" fill="white" opacity="0.8"/>
-              <circle cx="30" cy="70" r="1" fill="white" opacity="0.6"/>
-              <circle cx="40" cy="65" r="1.2" fill="white" opacity="0.7"/>
-              
-              <circle cx="30" cy="40" r="1.5" fill="white" opacity="0.8"/>
-              <circle cx="45" cy="50" r="1" fill="white" opacity="0.6"/>
-              <circle cx="50" cy="45" r="1.2" fill="white" opacity="0.7"/>
-              
-              <circle cx="40" cy="20" r="1.5" fill="white" opacity="0.8"/>
-              <circle cx="55" cy="30" r="1" fill="white" opacity="0.6"/>
-              <circle cx="60" cy="25" r="1.2" fill="white" opacity="0.7"/>
-              
-              <!-- Additional sparkle effect -->
-              <path d="M65 35 L67 37 L65 39 L63 37 Z" fill="white" opacity="0.6"/>
-              <path d="M18 45 L20 47 L18 49 L16 47 Z" fill="white" opacity="0.6"/>
-              <path d="M70 15 L72 17 L70 19 L68 17 Z" fill="white" opacity="0.6"/>
-            </svg>
+          <div class="relative w-48 h-48 mx-auto">
+            <!-- Video Background -->
+            <video 
+              autoplay 
+              muted 
+              loop 
+              playsinline 
+              class="w-full h-full object-cover rounded-2xl shadow-lokum-lg"
+              poster="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0ZGRkVGNyIvPgo8L3N2Zz4="
+            >
+              <source src="/videos/lokumai_shorts.mp4" type="video/mp4">
+              <!-- Fallback SVG Logo -->
+              <div class="w-full h-full flex items-center justify-center bg-lokum-sugar rounded-2xl">
+                <svg viewBox="0 0 100 100" class="w-3/4 h-3/4 drop-shadow-lg">
+                  <!-- Three stacked lokum cubes -->
+                  <rect x="15" y="55" width="30" height="30" rx="4" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1.5"/>
+                  <rect x="25" y="35" width="30" height="30" rx="4" fill="#93C5A5" stroke="#7BA05B" stroke-width="1.5"/>
+                  <rect x="35" y="15" width="30" height="30" rx="4" fill="#E6E6FA" stroke="#D8BFD8" stroke-width="1.5"/>
+                  
+                  <!-- Sugar crystals effect -->
+                  <circle cx="20" cy="60" r="1.5" fill="white" opacity="0.8"/>
+                  <circle cx="30" cy="70" r="1" fill="white" opacity="0.6"/>
+                  <circle cx="40" cy="65" r="1.2" fill="white" opacity="0.7"/>
+                  
+                  <circle cx="30" cy="40" r="1.5" fill="white" opacity="0.8"/>
+                  <circle cx="45" cy="50" r="1" fill="white" opacity="0.6"/>
+                  <circle cx="50" cy="45" r="1.2" fill="white" opacity="0.7"/>
+                  
+                  <circle cx="40" cy="20" r="1.5" fill="white" opacity="0.8"/>
+                  <circle cx="55" cy="30" r="1" fill="white" opacity="0.6"/>
+                  <circle cx="60" cy="25" r="1.2" fill="white" opacity="0.7"/>
+                  
+                  <!-- Additional sparkle effect -->
+                  <path d="M65 35 L67 37 L65 39 L63 37 Z" fill="white" opacity="0.6"/>
+                  <path d="M18 45 L20 47 L18 49 L16 47 Z" fill="white" opacity="0.6"/>
+                  <path d="M70 15 L72 17 L70 19 L68 17 Z" fill="white" opacity="0.6"/>
+                </svg>
+              </div>
+            </video>
+            
+            <!-- Play/Pause Overlay (Optional) -->
+            <div class="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-10 transition-all duration-300 rounded-2xl flex items-center justify-center opacity-0 hover:opacity-100">
+              <div class="bg-white/20 backdrop-blur-sm rounded-full p-3">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
 

@@ -12,9 +12,25 @@ import Footer from '../components/Footer.astro';
     <section class="relative py-20 bg-gradient-to-br from-lokum-sugar via-white to-lokum-pink/10">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-5xl font-bold font-display text-gray-800 mb-6">Our Story</h1>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
           The Sweet Architecture of Dreams
         </p>
+        
+        <!-- Team Introduction Video -->
+        <div class="max-w-2xl mx-auto">
+          <video 
+            controls 
+            poster="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODAwIDQ1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgZmlsbD0iI0ZGRkVGNyIvPgogIDx0ZXh0IHg9IjQwMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2IiBmb250LXNpemU9IjI0cHgiPk1lZXQgT3VyIFRlYW08L3RleHQ+Cjwvc3ZnPg=="
+            class="w-full rounded-xl shadow-lokum-lg border border-lokum-pink/20"
+          >
+            <source src="/videos/lokumai-about.mp4" type="video/mp4">
+            <div class="bg-lokum-sugar rounded-xl p-8 text-center">
+              <p class="text-gray-600">Your browser doesn't support video playback.</p>
+              <p class="text-sm text-gray-500 mt-2">Meet our team building artificial delight from Istanbul!</p>
+            </div>
+          </video>
+          <p class="text-sm text-gray-500 mt-3 italic">🎬 Meet the LokumAI team building artificial delight from Istanbul</p>
+        </div>
       </div>
     </section>
 
