@@ -46,9 +46,9 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     
     <!-- Theme color -->
-    <meta name="theme-color" content="#FFB6C1" />
+    <meta name="theme-color" content="#E68A7F" />
   </head>
-  <body class="bg-gradient-to-br from-lokum-sugar via-white to-lokum-pink/10 min-h-screen">
+  <body class="bg-lokum-cream min-h-screen">
     <slot />
   </body>
 </html>
@@ -72,11 +72,11 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #FFB6C1;
+    background: #E68A7F;
     border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #FF69B4;
+    background: #d4705a;
   }
 </style>
